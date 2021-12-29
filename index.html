@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="icon" href="qr.png">
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="qr.png" id="qrcode">
+            <input type="text" id="input" placeholder="Enter your data">
+            <button id="generate_qr">Generator QR Code</button>
+            <button id="print_qr" onclick="window.print()">Print this page</button>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
